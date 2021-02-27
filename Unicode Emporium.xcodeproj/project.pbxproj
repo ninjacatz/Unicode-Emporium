@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		3226392625E9E7F2004D612F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3226392525E9E7F2004D612F /* main.swift */; };
+		3226392E25E9E940004D612F /* activityselector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3226392D25E9E940004D612F /* activityselector.swift */; };
+		3226393125E9E94F004D612F /* mainmenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3226393025E9E94F004D612F /* mainmenu.swift */; };
+		3226393425E9E95A004D612F /* shifter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3226393325E9E95A004D612F /* shifter.swift */; };
+		3226393725E9E962004D612F /* circularshifter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3226393625E9E962004D612F /* circularshifter.swift */; };
+		3226393A25E9E968004D612F /* utf32.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3226393925E9E968004D612F /* utf32.swift */; };
+		3226393D25E9E96E004D612F /* utf16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3226393C25E9E96E004D612F /* utf16.swift */; };
+		3226394025E9E973004D612F /* utf8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3226393F25E9E973004D612F /* utf8.swift */; };
+		3226394325E9E978004D612F /* tokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3226394225E9E978004D612F /* tokens.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +33,14 @@
 /* Begin PBXFileReference section */
 		3226392225E9E7F2004D612F /* Unicode Emporium */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Unicode Emporium"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3226392525E9E7F2004D612F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		3226392D25E9E940004D612F /* activityselector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = activityselector.swift; sourceTree = "<group>"; };
+		3226393025E9E94F004D612F /* mainmenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainmenu.swift; sourceTree = "<group>"; };
+		3226393325E9E95A004D612F /* shifter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shifter.swift; sourceTree = "<group>"; };
+		3226393625E9E962004D612F /* circularshifter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = circularshifter.swift; sourceTree = "<group>"; };
+		3226393925E9E968004D612F /* utf32.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utf32.swift; sourceTree = "<group>"; };
+		3226393C25E9E96E004D612F /* utf16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utf16.swift; sourceTree = "<group>"; };
+		3226393F25E9E973004D612F /* utf8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utf8.swift; sourceTree = "<group>"; };
+		3226394225E9E978004D612F /* tokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tokens.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,14 @@
 			isa = PBXGroup;
 			children = (
 				3226392525E9E7F2004D612F /* main.swift */,
+				3226392D25E9E940004D612F /* activityselector.swift */,
+				3226393025E9E94F004D612F /* mainmenu.swift */,
+				3226393325E9E95A004D612F /* shifter.swift */,
+				3226393625E9E962004D612F /* circularshifter.swift */,
+				3226393925E9E968004D612F /* utf32.swift */,
+				3226393C25E9E96E004D612F /* utf16.swift */,
+				3226393F25E9E973004D612F /* utf8.swift */,
+				3226394225E9E978004D612F /* tokens.swift */,
 			);
 			path = "Unicode Emporium";
 			sourceTree = "<group>";
@@ -120,6 +144,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3226392625E9E7F2004D612F /* main.swift in Sources */,
+				3226393425E9E95A004D612F /* shifter.swift in Sources */,
+				3226393A25E9E968004D612F /* utf32.swift in Sources */,
+				3226394325E9E978004D612F /* tokens.swift in Sources */,
+				3226393D25E9E96E004D612F /* utf16.swift in Sources */,
+				3226394025E9E973004D612F /* utf8.swift in Sources */,
+				3226392E25E9E940004D612F /* activityselector.swift in Sources */,
+				3226393725E9E962004D612F /* circularshifter.swift in Sources */,
+				3226393125E9E94F004D612F /* mainmenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
